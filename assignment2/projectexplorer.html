@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ollie Savill" />
+    <link rel="stylesheet" href="projectexplorer.css" />
+    <script src="template.js" defer></script>
+    <title>Project List</title>
+  </head>
+  <body>
+    <header>
+      <img src="logo" alt="" />
+      <h2>Company Name</h2>
+      <nav>
+        <a href="projectexplorer.html">Project List</a>
+        <a href="aboutus.html">About us</a>
+      </nav>
+      <p>Username</p>
+    </header>
+    <main>
+      <form id="form">
+        <h3>Skills Wanted</h3>
+        <input type="checkbox" id="html" name="html" value="html" />
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="java" name="java" value="Java" />
+        <label for="java">Java</label>
+        <br>
+        <input type="checkbox" id="php" name="php" value="pHp" />
+        <label for="php">pHp</label>
+        <br>
+        <p>etc..</p>
+        <h3>Group Size</h3>
+        <div class="slider">
+          <!--Snatched from the internet-->
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value="10"
+            oninput="rangeValue.innerText = this.value"
+          />
+          <p id="rangeValue">10</p>
+        </div>
+        <h3>More menues to be determined</h3>
+        <p>Stuff</p>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="pagetitle">
+        <h1>Project List</h1>
+        <select name="filter" id="filter">
+          <option value="hightolow">Sort from High to Low</option>
+          <option value="other">etc.</option>
+        </select>
+        <input type="text" placeholder="Search Bar" />
+      </div>
+
+      <!--Grid of sorts-->
+      <div class="projectlist" id="project1">
+        <h4>Project Title</h4>
+        <p>Insert description</p>
+        <p>Skills wanted</p>
+        <p>Author</p>
+        <p>Group member amount</p>
+      </div>
+      <div class="projectlist" id="project2">
+        <h4>Project Title</h4>
+        <p>Insert description</p>
+        <p>Skills wanted</p>
+        <p>Author</p>
+        <p>Group member amount</p>
+      </div>
+      <div class="projectlist" id="project3">
+        <h4>Project Title</h4>
+        <p>Insert description</p>
+        <p>Skills wanted</p>
+        <p>Author</p>
+        <p>Group member amount</p>
+      </div>
+      <div class="projectlist" id="project4">
+        <h4>Project Title</h4>
+        <p>Insert description</p>
+        <p>Skills wanted</p>
+        <p>Author</p>
+        <p>Group member amount</p>
+      </div>
+    </main>
+    <footer>
+      <a href="#description">Top of Page</a>
+      <p>Authors: Creation date: Update date:</p>
+      <!--Maybe Javascript this?-->
+    </footer>
+  </body>
+</html>

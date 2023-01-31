@@ -1,0 +1,32 @@
+
+h1 {
+    background-color:black;
+    text-align: center;
+}
+
+h2 {
+    background-color: black;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.imghold{
+    text-align: center;
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 500px;
+    height:333px;
+    text-align: center;
+  }
+
+body {
+    background-color: rgb(246, 127, 255);
+    font-family: serif;
+    color: white;
+}

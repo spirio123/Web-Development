@@ -1,0 +1,120 @@
+/*
+	Name: Ollie Savill
+	Date: September 28th, 2022
+	Section: CST 8285 section 301
+	The stylesheet for the whole website
+*/
+body {
+  background-color: #aed9e0;
+  color: #2a2b2a;
+  font-family: "times new roman", "consolas", "arial", "sans-serif";
+  font-size: 100%;
+}
+
+/*
+
+*/
+html {
+  border: 0.3125em solid #2a2b2a;
+}
+
+/*
+
+*/
+fieldset {
+  border-color: #2a2b2a;
+}
+h1 {
+  text-align: center;
+  background-color: #2a2b2a;
+  color: #aed9e0;
+}
+h3,
+h4 {
+  color: #2a2b2a;
+}
+footer h4 {
+  color: #2a2b2a;
+  font-weight: normal;
+  text-align: right;
+}
+img.homepage {
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+img.courses {
+  width: 60%;
+  margin: 0.625em 20%;
+  border: solid 0.25em #2a2b2a;
+}
+
+img.homepage {
+  text-align: center;
+  border: 0.3125em groove #2a2b2a;
+  width: 30%;
+  margin: auto 35%;
+}
+p {
+  text-indent: 2.5em;
+  text-align: justify;
+}
+legend {
+  font-size: 120%;
+}
+
+
+
+header,
+footer {
+  background-color: #9fa0c3;
+  color: #2a2b2a;
+  border: 0.125em solid #2a2b2a;
+  padding: 0.3125em;
+  margin: 0.3125em;
+}
+nav {
+  display: flex;
+  justify-content: left;
+}
+nav a {
+  color: #2a2b2a;
+  border: 0.125em solid #2a2b2a;
+  border-radius: 0.375em;
+  background-color: #fefdfb;
+  padding: 0.125em;
+  text-decoration: none;
+  font-size: 1em;
+  display: flex;
+  padding: 0.3125em;
+  margin: 0.3125em;
+}
+nav a:hover {
+  color: #8b687f;
+}
+ * {
+  box-sizing: border-box;
+} 
+
+ .table  {
+  height: 11.875em;
+  width: 27.5em;
+} 
+
+#resume p {
+  text-indent: 0em;
+  margin: 0em;
+}
+
+#grid-col, .cell {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 0.0625em solid;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    border: none;
+  }
+}

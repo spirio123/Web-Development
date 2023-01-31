@@ -1,0 +1,149 @@
+<!--
+	Name: Ollie Savill
+	Date: September 28th, 2022
+	Section: CST 8285 section 301
+	The hmtl file for the order page
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Order</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ollie Savill">
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            <h4>Order Form</h4>
+            <fieldset>
+                <legend>Basic information</legend>
+                <label for="name">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                <input type="text" id="name" name="name" placeholder="Student Name" size="30" value="Ollie" disabled><br><br>
+                <label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                <input type="text" id="email" name="email" placeholder="Email"
+                    value="savi0031@algonquinlive.com"><br><br>
+                <label for="address">Address: &nbsp;&nbsp;</label>
+                <textarea name="address" id="address" cols="25" rows="6">
+    </textarea><br><br>
+                <label for="postcode">Postcode:&nbsp; </label>
+                <input type="text" id="postcode" name="postcode" placeholder="Postal code">
+                <br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Product Information</legend>
+                <table id="products">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Part Number</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Box</td>
+                            <td>AC100</td>
+                            <td><input type="text" id="boxquantity" name="quantity"></td>
+                            <td>$5</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Coffee Table</td>
+                            <td>AC200</td>
+                            <td><input type="text" id="coffeequantity" name="quantity"></td>
+                            <td>$100</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Chair</td>
+                            <td>AC300</td>
+                            <td><input type="text" id="chairquantity" name="quantity"></td>
+                            <td>$150</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Desk</td>
+                            <td>AC400</td>
+                            <td><input type="text" id="deskquantity" name="quantity"></td>
+                            <td>$120</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Com Table</td>
+                            <td>AC500</td>
+                            <td><input type="text" id="tablequantity" name="quantity"></td>
+                            <td>$130</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="4">Total:</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset><br><br>
+            <label for="creditinformation"><strong>Credit Card Information</strong></label><br><br>
+            <table id="creditinformation">
+                <tbody>
+                    <tr>
+                        <td>
+                            Card Type:
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="mastercard" name="card" value="mastercard">
+                            <label for="mastercard">Mastercard</label><br>
+                        </td>
+                        <td>
+                            <label for="cardnumber">Card Number: </label>
+                            <input type="text" id="cardnumber" name="card" size="19">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="visa" name="card" value="visa">
+                            <label for="visa">Visa</label><br>
+                        </td>
+                        <td>
+                            <label for="expiry">Expiry date:</label>
+                            <input type="date" id="expiry" name="expirationdate" min="2022-10-01" max="2100-12-31"><br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="giftcard" name="card" value="giftcard">
+                            <label for="giftcard">Gift Card</label><br>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="delivery"><strong>Delivery Address: </strong></label>
+                        </td>
+                        <td>
+                            <textarea name="delivery" id="delivery" cols="25" rows="6">
+                </textarea><br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <input type="submit" id="submit" value="Send Order">
+            <input type="reset" id="reset" value="Clear Form">
+        </fieldset>
+    </form>
+</body>
+
+</html>

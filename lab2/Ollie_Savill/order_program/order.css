@@ -1,0 +1,15 @@
+/*
+  Name:Ollie Savill
+  Date:September 28th,2022
+  Section:CST 8285 section 301
+  The style sheet for the order page
+*/
+h4 {
+  color: darkorange;
+}
+#products, #products td, #products tr, #products th{
+  border:1px solid;
+}
+#delivery, #address {
+  vertical-align:middle;
+}

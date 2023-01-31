@@ -1,0 +1,53 @@
+/*
+	Name: Ollie Savill
+	Date: November 13th, 2022
+	Section: CST 8285 section 301
+	The style page for the quotes page
+*/
+
+/*quote block*/
+.quote,
+.author {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+/*The text of the quote*/
+.quote {
+  text-align: center;
+}
+
+/*The title*/
+header {
+  text-decoration: underline;
+}
+/*The author style*/
+.author {
+  font-style: italic;
+  text-align: right;
+}
+/*Placing the generator button in the centre */
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+/*Making the button round and sans-serif */
+button {
+  border-radius: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*The quoteblock */
+.quoteblock {
+  border: 4pt solid black;
+  border-radius: 15pt;
+  background-color: orchid;
+  padding: 20pt;
+  margin-top: 30pt;
+  margin-bottom: 30pt;
+}
+
+/*The background colour */
+body {
+  background-color: lavenderblush;
+  font-family: Arial, Helvetica, sans-serif;
+}

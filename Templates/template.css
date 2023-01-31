@@ -1,0 +1,33 @@
+h1 {
+
+}
+h2 {
+
+}
+body {
+
+}
+header {
+
+}
+footer {
+    
+}
+html {
+
+}
+nav {
+
+}
+nav a {
+
+}
+nav a:hover {
+
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+      border: none;
+    }
+  }

@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+html {
+  margin: 15px 50px;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+button + button {
+  background-color: crimson;
+}
+
+.textfield label {
+  display: block;
+}
+.textfield input {
+  width: 75%;
+}
+input {
+  border-radius: 3px;
+  border: solid 1px lightgrey;
+  padding: 5px;
+  color: grey;
+  margin: 5px 0px;
+}
+.textfield label:after {
+  content: " ";
+}
+
+input.error {
+  border: 2px solid red;
+}
+
+span {
+  color: red;
+  display: none;
+}
+span.error {
+  display: block;
+}
